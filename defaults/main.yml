@@ -1,0 +1,4 @@
+---
+# defaults file for adrianjuhl.skeleton
+
+adrianjuhl__skeleton__somevariable: "somevariable value"

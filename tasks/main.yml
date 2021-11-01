@@ -1,0 +1,7 @@
+---
+# tasks file for adrianjuhl.skeleton
+
+- name: Example print message
+  ansible.builtin.debug:
+    msg: "hello from role adrianjuhl.skeleton - variable adrianjuhl__skeleton__somevariable has the value: {{ adrianjuhl__skeleton__somevariable }} "
+
