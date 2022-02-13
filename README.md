@@ -47,12 +47,13 @@ $ cd ansible-role-skeleton
 $ git.init-clone-main
     equivalent to:  $ touch .gitignore && git add .gitignore && git commit -m 'Initial commit.' && git branch -M main && git push -u
 $ git checkout -b 1.0.0-develop
-$ ansible-galaxy init skeleton
-$ mv skeleton/meta .
-$ rm -rf skeleton
-    edit the readme as appropriate (this readme is an example)
-    edit the meta/main.yml file as appropriate, including setting role_name (see the example in this repo)
-    edit the tasks/main.yml file and others as appropriate to implement the role tasks
+$ ansible-galaxy init adrianjuhl.skeleton
+$ mv adrianjuhl.skeleton/* .
+$ rm -rf adrianjuhl.skeleton
+    edit README.md as appropriate (this readme is an example)
+    edit meta/main.yml as appropriate, including setting role_name (see the example in this repo)
+    edit tasks/main.yml and other role files as appropriate to implement the role tasks
+    add a LICENSE file
 $ git add .
 $ git commit -m "Implement role."
 $ git push -u
